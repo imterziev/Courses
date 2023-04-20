@@ -30,7 +30,7 @@ public class ProductShop {
             System.out.println(shop + "->");
 
             for (var entry : shopsData.get(shop).entrySet()) {
-                System.out.printf("JavaOOP.Inheritance.Exercise.Restaurant.Product: %s, Price: %.1f\n", entry.getKey(), entry.getValue());
+                System.out.printf("Product: %s, Price: %.1f\n", entry.getKey(), entry.getValue());
             }
         }
     }
