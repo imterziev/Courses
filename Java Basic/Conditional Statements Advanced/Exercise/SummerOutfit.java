@@ -39,7 +39,6 @@ public class SummerOutfit {
                 }
                 break;
             case "Evening":
-                // тук може и без if else, защото на всякъде е еднакво
                 if (temperature >= 10 && temperature <= 18) {
                     outfit = "Shirt";
                     shoes = "Moccasins";
